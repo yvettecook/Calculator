@@ -4,23 +4,22 @@ Basic calculator app, and the first assignment of the Stanford University `Devel
 
 ### Key Learnings:
 
--[x] Closures
+- [x] Closures
 
 `performOperation( { (op1, op2) in return op1 * op2 })`
 
--[x] Refactoring Closures!
+- [x] Refactoring Closures!
 
 `performOperation( { $0 * $1 } )`
 
--[x] Enums
+- [x] Enums
 
 ``` enum Op {
         case Operand(Double)
         case UnaryOperation(String, Double -> Double)
-        case BinaryOperation(String, (Double, Double) -> Double)
-```
+        case BinaryOperation(String, (Double, Double) -> Double)```
 
--[x] Computed Properties
+- [x] Computed Properties
 
 ``` var description : String {
             get {
@@ -35,4 +34,4 @@ Basic calculator app, and the first assignment of the Stanford University `Devel
             }
     }```
 
--[x] Recursion
+- [x] Recursion
