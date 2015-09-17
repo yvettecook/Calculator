@@ -19,7 +19,8 @@ enum Op {
         case Operand(Double)
         case UnaryOperation(String, Double -> Double)
         case BinaryOperation(String, (Double, Double) -> Double)
-}```
+}
+```
 
 - [x] Computed Properties
 
@@ -35,6 +36,7 @@ var description : String {
                     return string
                 }
             }
-    }```
+    }
+    ```
 
 - [x] Recursion
