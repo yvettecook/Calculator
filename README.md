@@ -6,7 +6,7 @@ Basic calculator app, and the first assignment of the Stanford University `Devel
 
 -[x] Closures
 
-`performOperation( { (op1, op2) in return op1 * op2 })``
+`performOperation( { (op1, op2) in return op1 * op2 })`
 
 -[x] Refactoring Closures!
 
