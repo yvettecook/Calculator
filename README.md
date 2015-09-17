@@ -14,14 +14,17 @@ Basic calculator app, and the first assignment of the Stanford University `Devel
 
 - [x] Enums
 
-``` enum Op {
+```swift
+enum Op {
         case Operand(Double)
         case UnaryOperation(String, Double -> Double)
-        case BinaryOperation(String, (Double, Double) -> Double)```
+        case BinaryOperation(String, (Double, Double) -> Double)
+}```
 
 - [x] Computed Properties
 
-``` var description : String {
+```swift
+var description : String {
             get {
                 switch self {
                 case .Operand(let value):
